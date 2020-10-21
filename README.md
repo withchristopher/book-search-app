@@ -1,4 +1,5 @@
-## Book Search App allows you to search for books by typing a topic into a search bar. The application was built using the MERN stack and is deployed on Heroku.
+## Book Search App 
+This application allows you to search for books by typing a topic into a search bar. The application was built using the MERN stack and is deployed on Heroku.
 
 
 ### Description
