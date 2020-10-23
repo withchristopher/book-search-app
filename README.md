@@ -1,7 +1,6 @@
 ## Book Search App 
 This application allows you to search for books by typing a topic into a search bar. The application was built using the MERN stack and is deployed on Heroku.
 
-
 ### Description
 Combined the four technologies of the MERN stack (MongoDB, Express.js, React, and Node.js).
 

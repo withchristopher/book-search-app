@@ -4,6 +4,8 @@ import { useMutation } from '@apollo/react-hooks';
 import { createUser } from '../utils/API';
 import Auth from '../utils/auth';
 import { ADD_USER } from '../utils/mutations';
+
+
 const SignupForm = () => {
   const [addUser, { error }] = useMutation(ADD_USER);
   // set initial form state
@@ -34,16 +36,10 @@ const SignupForm = () => {
         variables: { ...userFormData }
       });
       Auth.login(data.addUser.token);
-      // if (!response.ok) {
-      //   throw new Error('something went wrong!');
-      // }
 
-      // const { token, user } = await response.json();
-      // console.log(user);
-      // Auth.login(token);
     } catch (err) {
       console.error(err);
-      // setShowAlert(true);
+
     }
 
     setUserFormData({
@@ -107,6 +103,7 @@ const SignupForm = () => {
           Submit
         </Button>
       </Form>
+      {error && <div>Sign up failed</div>}
     </>
   );
 };

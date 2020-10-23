@@ -8,9 +8,6 @@ type Query {
     me: User
 
   }
-
-
-
 input savedBook {    
     authors: [String]
     description: String
