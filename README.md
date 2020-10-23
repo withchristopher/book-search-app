@@ -18,6 +18,6 @@ Users will be able to sign up and create an account. Once signed in, click the s
 * JWT-decode : JSON Web Tokens (JWTs) are an alternative to using session cookies for authentication.
 
 ### Viewing
-Live web-app here: 
+Live web-app here: https://search-book-store.herokuapp.com/
 ### Author
 Made by CS Maxwell
